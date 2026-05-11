@@ -1,9 +1,10 @@
 # autoit-midi-player
 
-The AutoIt script “MIDI PLAYER v4.0” is a MIDI playback application that converts MIDI notes into simulated keyboard key presses. Instead of playing sound directly, the program reads MIDI events and sends mapped keyboard inputs to another active window, making it useful for rhythm games, virtual instruments, or keyboard automation.
+This script allows MIDI key notes to be sent to any active window using the F1 shortcut key. No matter which game or application is being used, the script will reproduce the keyboard keys corresponding to the MIDI file.
 
-The script includes several important systems and functions. It uses AutoIt GUI libraries to create a modern dark-themed interface with buttons, labels, playlists, and playback controls. A multilingual system stores translations in arrays and uses the _L() function to display the correct language dynamically. The MIDI-to-keyboard conversion is handled through the $aNoteMap array, which associates MIDI notes with keyboard keys.
+I also added a multilingual system to improve overall accessibility and understanding for users from different languages.
 
-The function _LoadLayout() changes the keyboard mapping depending on the selected layout such as QWERTY, AZERTY, or QWERTZ. Global variables manage playback state, loop mode, shuffle mode, test mode, and playlist data. The application also supports hotkeys like F1 and F2 for quick control.
+The project is based on the same foundation as the GenshinLyreMidiPlayer script, which only works inside the Genshin Impact game window. This version expands the concept and allows it to work anywhere on the system, regardless of the application or game.
 
-Overall, the script combines GUI management, multilingual support, playlist handling, keyboard layout adaptation, and MIDI interpretation into a single automated MIDI keyboard player.
+Of course, to run this script you will need AutoIt
+. The source code is completely free and fully verifiable.
