@@ -7,7 +7,7 @@
 #include <Array.au3>
 
 ; ============================================================
-;  MIDI PLAYER v4.0 - Dark Interface - Multi-language
+;  MIDI PLAYER v3.0 - Dark Interface - Multi-language
 ;  F1 = Play / Pause  |  F2 = Stop
 ;  Languages: English (default), French, Spanish, German, Portuguese
 ; ============================================================
@@ -105,7 +105,7 @@ Global $aLang[$LANG_COUNT][$STR_COUNT]
 
 ; --- English (0) ---
 $aLang[0][$STR_TITLE]          = "MIDI PLAYER"
-$aLang[0][$STR_SUBTITLE]       = "v4.0  -  F1 Play/Pause  |  F2 Stop"
+$aLang[0][$STR_SUBTITLE]       = "v3.0  -  F1 Play/Pause  |  F2 Stop"
 $aLang[0][$STR_BTN_PLAYER]     = "Player"
 $aLang[0][$STR_BTN_SETTINGS]   = "Settings"
 $aLang[0][$STR_BTN_ABOUT]      = "About"
@@ -155,7 +155,7 @@ $aLang[0][$STR_LAYOUT_ROW3]    = "Row 3 : "
 $aLang[0][$STR_TRANSPOSE_NOTE] = "Notes outside range are transposed automatically."
 $aLang[0][$STR_TEST_EXPLAIN]   = "Test Mode: plays MIDI with Windows sound (no keys sent)."
 $aLang[0][$STR_SAVE_BTN]       = "Save"
-$aLang[0][$STR_ABOUT_TITLE]    = "MIDI Player v4.0 by DannSKiller"
+$aLang[0][$STR_ABOUT_TITLE]    = "MIDI Player v3.0 by DannSKiller"
 $aLang[0][$STR_ABOUT_SUB]      = "AutoIt Script - Universal MIDI Player"
 $aLang[0][$STR_ABOUT_L1]       = "- Reads .mid files and sends keyboard keys"
 $aLang[0][$STR_ABOUT_L2]       = "- Works on any active window"
@@ -170,7 +170,7 @@ $aLang[0][$STR_PAGE_PLAYER]    = "Player page"
 
 ; --- French (1) ---
 $aLang[1][$STR_TITLE]          = "MIDI PLAYER"
-$aLang[1][$STR_SUBTITLE]       = "v4.0  -  F1 Play/Pause  |  F2 Stop"
+$aLang[1][$STR_SUBTITLE]       = "v3.0  -  F1 Play/Pause  |  F2 Stop"
 $aLang[1][$STR_BTN_PLAYER]     = "Lecteur"
 $aLang[1][$STR_BTN_SETTINGS]   = "Parametres"
 $aLang[1][$STR_BTN_ABOUT]      = "A propos"
@@ -220,7 +220,7 @@ $aLang[1][$STR_LAYOUT_ROW3]    = "Rangee 3 : "
 $aLang[1][$STR_TRANSPOSE_NOTE] = "Les notes hors plage sont transposees automatiquement."
 $aLang[1][$STR_TEST_EXPLAIN]   = "Mode Test : ecoute le MIDI avec le son Windows (sans envoyer de touches)."
 $aLang[1][$STR_SAVE_BTN]       = "Enregistrer"
-$aLang[1][$STR_ABOUT_TITLE]    = "MIDI Player v4.0 by DannSKiller"
+$aLang[1][$STR_ABOUT_TITLE]    = "MIDI Player v3.0 by DannSKiller"
 $aLang[1][$STR_ABOUT_SUB]      = "Script AutoIt - Lecteur MIDI universel"
 $aLang[1][$STR_ABOUT_L1]       = "- Lit les fichiers .mid et envoie les touches clavier"
 $aLang[1][$STR_ABOUT_L2]       = "- Fonctionne sur n'importe quelle fenetre active"
@@ -235,7 +235,7 @@ $aLang[1][$STR_PAGE_PLAYER]    = "Page Lecteur"
 
 ; --- Spanish (2) ---
 $aLang[2][$STR_TITLE]          = "MIDI PLAYER"
-$aLang[2][$STR_SUBTITLE]       = "v4.0  -  F1 Play/Pausa  |  F2 Stop"
+$aLang[2][$STR_SUBTITLE]       = "v3.0  -  F1 Play/Pausa  |  F2 Stop"
 $aLang[2][$STR_BTN_PLAYER]     = "Reproductor"
 $aLang[2][$STR_BTN_SETTINGS]   = "Ajustes"
 $aLang[2][$STR_BTN_ABOUT]      = "Acerca de"
@@ -285,7 +285,7 @@ $aLang[2][$STR_LAYOUT_ROW3]    = "Fila 3 : "
 $aLang[2][$STR_TRANSPOSE_NOTE] = "Las notas fuera de rango se transponen automaticamente."
 $aLang[2][$STR_TEST_EXPLAIN]   = "Modo Test: reproduce MIDI con sonido Windows (sin enviar teclas)."
 $aLang[2][$STR_SAVE_BTN]       = "Guardar"
-$aLang[2][$STR_ABOUT_TITLE]    = "MIDI Player v4.0 by DannSKiller"
+$aLang[2][$STR_ABOUT_TITLE]    = "MIDI Player v3.0 by DannSKiller"
 $aLang[2][$STR_ABOUT_SUB]      = "Script AutoIt - Reproductor MIDI universal"
 $aLang[2][$STR_ABOUT_L1]       = "- Lee archivos .mid y envia teclas del teclado"
 $aLang[2][$STR_ABOUT_L2]       = "- Funciona en cualquier ventana activa"
@@ -300,7 +300,7 @@ $aLang[2][$STR_PAGE_PLAYER]    = "Pagina Reproductor"
 
 ; --- German (3) ---
 $aLang[3][$STR_TITLE]          = "MIDI PLAYER"
-$aLang[3][$STR_SUBTITLE]       = "v4.0  -  F1 Abspielen/Pause  |  F2 Stop"
+$aLang[3][$STR_SUBTITLE]       = "v3.0  -  F1 Abspielen/Pause  |  F2 Stop"
 $aLang[3][$STR_BTN_PLAYER]     = "Player"
 $aLang[3][$STR_BTN_SETTINGS]   = "Einstellungen"
 $aLang[3][$STR_BTN_ABOUT]      = "Info"
@@ -350,7 +350,7 @@ $aLang[3][$STR_LAYOUT_ROW3]    = "Reihe 3 : "
 $aLang[3][$STR_TRANSPOSE_NOTE] = "Noten ausserhalb des Bereichs werden automatisch transponiert."
 $aLang[3][$STR_TEST_EXPLAIN]   = "Testmodus: spielt MIDI mit Windows-Sound (keine Tasten gesendet)."
 $aLang[3][$STR_SAVE_BTN]       = "Speichern"
-$aLang[3][$STR_ABOUT_TITLE]    = "MIDI Player v4.0 by DannSKiller"
+$aLang[3][$STR_ABOUT_TITLE]    = "MIDI Player v3.0 by DannSKiller"
 $aLang[3][$STR_ABOUT_SUB]      = "AutoIt-Skript - Universeller MIDI-Player"
 $aLang[3][$STR_ABOUT_L1]       = "- Liest .mid-Dateien und sendet Tastatureingaben"
 $aLang[3][$STR_ABOUT_L2]       = "- Funktioniert in jedem aktiven Fenster"
@@ -365,7 +365,7 @@ $aLang[3][$STR_PAGE_PLAYER]    = "Player-Seite"
 
 ; --- Portuguese (4) ---
 $aLang[4][$STR_TITLE]          = "MIDI PLAYER"
-$aLang[4][$STR_SUBTITLE]       = "v4.0  -  F1 Play/Pausa  |  F2 Stop"
+$aLang[4][$STR_SUBTITLE]       = "v3.0  -  F1 Play/Pausa  |  F2 Stop"
 $aLang[4][$STR_BTN_PLAYER]     = "Reprodutor"
 $aLang[4][$STR_BTN_SETTINGS]   = "Definicoes"
 $aLang[4][$STR_BTN_ABOUT]      = "Sobre"
@@ -415,7 +415,7 @@ $aLang[4][$STR_LAYOUT_ROW3]    = "Linha 3 : "
 $aLang[4][$STR_TRANSPOSE_NOTE] = "Notas fora do intervalo sao transpostas automaticamente."
 $aLang[4][$STR_TEST_EXPLAIN]   = "Modo Teste: toca MIDI com som Windows (sem enviar teclas)."
 $aLang[4][$STR_SAVE_BTN]       = "Guardar"
-$aLang[4][$STR_ABOUT_TITLE]    = "MIDI Player v4.0 by DannSKiller"
+$aLang[4][$STR_ABOUT_TITLE]    = "MIDI Player v3.0 by DannSKiller"
 $aLang[4][$STR_ABOUT_SUB]      = "Script AutoIt - Reprodutor MIDI universal"
 $aLang[4][$STR_ABOUT_L1]       = "- Le ficheiros .mid e envia teclas do teclado"
 $aLang[4][$STR_ABOUT_L2]       = "- Funciona em qualquer janela ativa"
@@ -1519,4 +1519,3 @@ Func _Status($s)
     ; Update the status bar label
     GUICtrlSetData($hLblStatus, "  " & $s)
 EndFunc
-    
